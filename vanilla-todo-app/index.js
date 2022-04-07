@@ -6,7 +6,6 @@ const todoList = document.getElementById('todos');
 
  // Side Effects / Lifecycle
 const existingTodos = JSON.parse(localStorage.getItem('todos')) || [];
-
 const todoData = [];
 
 existingTodos.forEach(todo => {
