@@ -1,5 +1,5 @@
 // Get DOM elements
-const form  = document.getElementById('form');
+const form  = document.querySelector('form');
 const reset  = document.getElementById('reset');
 const input = document.querySelector("[name='todo']");
 const todoList = document.getElementById('todos');
